@@ -44,9 +44,9 @@ jobs:
         # Store under Settings --> Secrets and variables --> Actions
         env:
           METACULUS_TOKEN: ${{ secrets.METACULUS_TOKEN }} # replace this with the name of the variable under which you stored your own Metaculus token
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          LINKUP_API_KEY: ${{ secrets.LINKUP_API_KEY }}
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
-          NEWSAPI_API_KEY: ${{ secrets.NEWSAPI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           ASKNEWS_CLIENT_ID: ${{ secrets.ASKNEWS_CLIENT_ID }}
           ASKNEWS_CLIENT_SECRET: ${{ secrets.ASKNEWS_CLIENT_SECRET }}
